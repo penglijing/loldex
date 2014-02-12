@@ -1,7 +1,76 @@
 doctype html
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+	head
+		meta(charset="utf-8")
+		meta(name = "viewpoint", content="width = device-width, initial-scale = 1/0")
+		meta(name="description", content = "")
+		meta(name = "description", content = "")
+
+		title #{title}|LOLDex
+
+		link(rel='stylesheet', href='/stylesheets/bootstrap-theme.min.css')
+		link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		block pageStyleSheet
+		link(rel='icon', href = 'http://cdn.leagueoflegends.com/lolkit/1.1.5/resources/images/favicon.ico',type="image/vnd.microsoft.icon")
+		script(src = '/javascripts/jquery.min.js')
+		script(src = '/javascripts/nav.js')
+		script(src='/javascripts/bootstrap.min.js')
+		block pageScript
+	body
+		div.navbar.navbar-fixed-top
+			div.container
+				div.navbar-header
+					a.navbar-brand(href="/") LOL Dex
+
+					a.navbar-toggle(data-toggle="collapse", datatarget=".navbar-collapse")
+						span.glyphicon.glyphicon-chevron-down
+
+				div.navbar-collapse.collapse
+					ul.nav.navbar-nav
+						li
+							a(href="/explore") Explore
+
+					ul.nav.pull-right.navbar-nav
+						if (!user)
+							li.dropdown#login
+								a.dropdown-toggle(href="#", data-toggle="dropdown")
+									span Login
+									span(style='margin-left:5px;').icon-chevron-down
+								ul.dropdown-menu(role="menu", aria-labelledby="dLabel")
+									div.ddmenuContent
+										div.form-group
+											input.form-control(type="name", name="name", placeholder="User Name")#logUserName
+										div.form-group
+											input.form-control(type="password", name="password", placeholder="Password")#logPassword
+										div.form-group
+											button.form-control.btn.btn-primary#loginSubmit Login
+
+							li.dropdown
+								a.dropdown-toggle(href="#", data-toggle="dropdown")
+									span
+										b Register
+									span(style='margin-left:5px;').icon-chevron-down
+								ul.dropdown-menu(role="menu", aria-labelledby="dLabel")
+									div.ddmenuContent
+										div.form-group
+											input.form-control(type='text', placeholder='Name',name = 'name')#regUserName
+										div.form-group
+											input.form-control(type='password', placeholder = 'Password', name='password')#regPassword
+										div.form-group
+											input.form-control(type='password', placeholder = 'Password Confirm', name= "password-repeat")#confPassword
+										div.form-group
+											button.form-control.btn.btn-primary#registerSubmit Register
+						else
+							li
+								a(href = '/#{user.name}') Profile
+							li#logout
+								a(href= "/logout") Logout
+
+		div.container#container
+			div.spacer
+			if (succ)
+				div.alert.alert-success= succ
+			if (err)
+				div.alert.alert-error= err
+			block content

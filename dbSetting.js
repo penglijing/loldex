@@ -1,7 +1,7 @@
 exports.config = {
 	host     : 'localhost',
 	user     : 'root',
-	password : 'password'
+	password : 'Francis3711'
 };
 
 exports.db = 'lol_db'

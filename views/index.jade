@@ -1,5 +1,32 @@
 extends layout
 
+block pageStyleSheet
+	link(rel='stylesheet', href='http://na.leagueoflegends.com/profiles/lol2_profile/modules/contrib/ctools/css/ctools.css?n08y0g')
+	link(rel='stylesheet', href='http://na.leagueoflegends.com/profiles/lol2_profile/modules/contrib/date/date_api/date.css?n08y0g')
+	link(rel='stylesheet', href='http://na.leagueoflegends.com/modules/field/theme/field.css?n08y0g')
+	link(rel='stylesheet', href='http://cdn.leagueoflegends.com/lolkit/1.1.5/lol-kit.css')
+	link(rel='stylesheet', href='http://na.leagueoflegends.com/profiles/lol2_profile/themes/custom/lolt/css/lolt.styles.css?n08y0g')
+	link(rel='stylesheet', href='http://na.leagueoflegends.com/profiles/lol2_profile/modules/contrib/panels/css/panels.css?n08y0g')
+	link(rel='stylesheet', href='http://na.leagueoflegends.com/modules/system/system.base.css?n08y0g')
+	link(rel='stylesheet', href='http://na.leagueoflegends.com/modules/system/system.messages.css?n08y0g')
+	link(rel='stylesheet', href='http://na.leagueoflegends.com/modules/system/system.theme.css?n08y0g')
+	link(rel='stylesheet', href='http://na.leagueoflegends.com/profiles/lol2_profile/modules/contrib/views/css/views.css?n08y0g')
+
+block pageScript
+	script(src = 'http://www.google-analytics.com/analytics.js')
+	script(src = 'http://na.leagueoflegends.com/misc/drupal.js?n08y0g')
+	script(src = 'http://www.googletagmanager.com/gtm.js?id=GTM-N98J')
+	script(src = 'http://na.leagueoflegends.com/misc/jquery.once.js?v=1.2')
+	script(src = 'http://www.google-analytics.com/plugins/ua/linkid.js')
+	script(src = 'http://sandworm.cdn.leagueoflegends.com/loader.en_US.js')
+	script(src = 'http://cdn.leagueoflegends.com/lolkit/1.1.5/modernizr.js')
+	script(src = 'http://cdn.leagueoflegends.com/global-elements/0.0.21/js/omniture-trackers.js')
+	script(src = 'http://na.leagueoflegends.com/profiles/lol2_profile/modules/contrib/panels/js/panels.js?n08y0g')
+	script(src = 'http://na.leagueoflegends.com/profiles/lol2_profile/modules/riot/riot_sandworm/riot_sandworm.account.js?n08y0g')
+	script(src = 'http://cdn.leagueoflegends.com/lolkit/1.1.5/riot-all.js')
+	script(src = 'http://cdn.leagueoflegends.com/lolkit/1.1.5/riot-kit-all.js')
+	script(src = 'http://na.leagueoflegends.com/profiles/lol2_profile/modules/riot/riot_omniture/omniture/s_code_lol2.js?n08y0g')
+	script(src = 'http://na.leagueoflegends.com/profiles/lol2_profile/modules/contrib/hap/js/timeago.js?n08y0gg')
+
 block content
-  h1= title
-  p Welcome to #{title}
+	p #{content}
