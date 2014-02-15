@@ -6,6 +6,9 @@
  * To change this template use File | Settings | File Templates.
  */
 $(document).ready(function(){
+	$('.dropdown input, .dropdown label').click(function(e) {
+		e.stopPropagation();
+	});
 	$('#registerSubmit').click(function(){
 		$.ajax({
 			url:'/register',
@@ -40,7 +43,7 @@ $(document).ready(function(){
 				console.log(err);
 			}
 
-		})
+		});
 	})
 
 

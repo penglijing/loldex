@@ -5,7 +5,7 @@ lol.route = lol.route || {};
 lol.fileRequire = lol.fileRequire  || {};
 lol.fileRequire.login = require('./login');
 lol.fileRequire.register = require('./register');
-lol.fileRequire.register = require('./hackIndex');
+lol.fileRequire.index = require('./hackIndex');
 /*
  * GET home page.
  */
@@ -18,7 +18,7 @@ exports.route = function (app) {
 };
 
 lol.route.get_index = function (req, res) {
-	return lol.fileRequire.register.renderIndex(req, res);
+	return lol.fileRequire.index.renderIndex(req, res);
 };
 
 lol.route.get_explore = function (req, res) {

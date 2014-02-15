@@ -14,8 +14,8 @@ html
 		block pageStyleSheet
 		link(rel='icon', href = 'http://cdn.leagueoflegends.com/lolkit/1.1.5/resources/images/favicon.ico',type="image/vnd.microsoft.icon")
 		script(src = '/javascripts/jquery.min.js')
-		script(src = '/javascripts/nav.js')
 		script(src='/javascripts/bootstrap.min.js')
+		script(src = '/javascripts/nav.js')
 		block pageScript
 	body
 		div.navbar.navbar-fixed-top
@@ -34,10 +34,9 @@ html
 					ul.nav.pull-right.navbar-nav
 						if (!user)
 							li.dropdown#login
-								a.dropdown-toggle(href="#", data-toggle="dropdown")
-									span Login
+								a.dropdown-toggle(href="#", data-toggle="dropdown") Login
 									span(style='margin-left:5px;').icon-chevron-down
-								ul.dropdown-menu(role="menu", aria-labelledby="dLabel")
+								ul.dropdown-menu(aria-labelledby="dLabel")
 									div.ddmenuContent
 										div.form-group
 											input.form-control(type="name", name="name", placeholder="User Name")#logUserName
@@ -47,23 +46,21 @@ html
 											button.form-control.btn.btn-primary#loginSubmit Login
 
 							li.dropdown
-								a.dropdown-toggle(href="#", data-toggle="dropdown")
-									span
-										b Register
+								a.dropdown-toggle(href="#", data-toggle="dropdown") Register
 									span(style='margin-left:5px;').icon-chevron-down
-								ul.dropdown-menu(role="menu", aria-labelledby="dLabel")
+								ul.dropdown-menu(aria-labelledby="dLabel")
 									div.ddmenuContent
-										div.form-group
-											input.form-control(type='text', placeholder='Name',name = 'name')#regUserName
-										div.form-group
+										li.form-group
+											input.form-control(type='text', placeholder='User Name',name = 'name')#regUserName
+										li.form-group
 											input.form-control(type='password', placeholder = 'Password', name='password')#regPassword
-										div.form-group
+										li.form-group
 											input.form-control(type='password', placeholder = 'Password Confirm', name= "password-repeat")#confPassword
-										div.form-group
+										li.form-group
 											button.form-control.btn.btn-primary#registerSubmit Register
 						else
 							li
-								a(href = '/#{user.name}') Profile
+								a(href = '/#{user.UserName}') Profile
 							li#logout
 								a(href= "/logout") Logout
 
