@@ -15,6 +15,7 @@ exports.route = function (app) {
 	app.get('/logout',lol.route.get_logout);
 	app.post('/login', lol.route.post_login);
 	app.post('/register', lol.route.post_register);
+	app.get('/:username', lol.route.get_profile);
 };
 
 lol.route.get_index = function (req, res) {
@@ -36,4 +37,8 @@ lol.route.post_register = function (req, res) {
 lol.route.get_logout = function(req,res){
 	req.session.user = null;
 	return res.redirect('/');
-}
+};
+
+lol.route.get_profile = function(req, res){
+
+};

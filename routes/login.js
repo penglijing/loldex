@@ -30,7 +30,7 @@ exports.login = function(req, res) {
 			return err;
 		}
 		var success = 'Login Success';
-		req.session.user = user; //store the user session.
+		req.session.user = user[0]; //store the user session.
 		console.log('success'+user.name);
 		res.send({info:success});
 		return success;
