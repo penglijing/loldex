@@ -514,3 +514,7 @@ footer {
 #container{
 	width: 70%;
 }
+#logo{
+	height: 80px;
+	margin-top: -14px;
+}

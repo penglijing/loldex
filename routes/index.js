@@ -11,11 +11,14 @@ lol.fileRequire.index = require('./hackIndex');
  */
 exports.route = function (app) {
 	app.get('/', lol.route.get_index);
-	app.get('/explore', lol.route.get_explore);
 	app.get('/logout',lol.route.get_logout);
 	app.post('/login', lol.route.post_login);
 	app.post('/register', lol.route.post_register);
+	app.get('/addChampion', lol.route.get_add_Champion);
+	app.get('/searchChampion', lol.route.get_search_champion);
+	app.get('/searchItem', lol.route.get_search_item);
 	app.get('/:username', lol.route.get_profile);
+	app.get('/explore', lol.route.get_explore);
 };
 
 lol.route.get_index = function (req, res) {
@@ -40,5 +43,17 @@ lol.route.get_logout = function(req,res){
 };
 
 lol.route.get_profile = function(req, res){
+
+};
+
+lol.route.get_add_Champion = function(req, res){
+	res.render('addChampion', {title: 'Add Champion'});
+};
+
+lol.route.get_search_champion = function(req, res){
+
+};
+
+lol.route.get_search_item = function(req, res){
 
 };
