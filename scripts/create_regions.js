@@ -13,13 +13,11 @@ connection.query('CREATE DATABASE IF NOT EXISTS lol_db', function (err) {
 	if (err) throw err;
 	connection.query('USE lol_db', function (err) {
 		if (err) throw err;
-		connection.query('CREATE TABLE IF NOT EXISTS Champions('
-			+ 'ChampionID INT NOT NULL AUTO_INCREMENT,'
-			+ 'PRIMARY KEY(ChampionID),'
-			+ 'ChampionName VARCHAR(30),'
-			+ 'Title VARCHAR(30),'
-			+ 'Region VARCHAR(30),'
-			+ 'Type VARCHAR(30)'
+		connection.query('CREATE TABLE IF NOT EXISTS Regions('
+			+ 'RegionID INT NOT NULL AUTO_INCREMENT,'
+			+ 'PRIMARY KEY(RegionID),'
+			+ 'RegionName VARCHAR(30),'
+			+ 'RegionDescription VARCHAR(300)'
 			+ ');', function (err) {
 			if (err) throw err;
 			connection.end();

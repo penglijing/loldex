@@ -12,6 +12,7 @@ html
 		link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
 		link(rel='stylesheet', href='/stylesheets/style.css')
 		block pageStyleSheet
+
 		link(rel='icon', href = 'http://cdn.leagueoflegends.com/lolkit/1.1.5/resources/images/favicon.ico',type="image/vnd.microsoft.icon")
 		script(src = '/javascripts/jquery.min.js')
 		script(src='/javascripts/bootstrap.min.js')
@@ -21,8 +22,8 @@ html
 		div.navbar.navbar-fixed-top
 			div.container
 				div.navbar-header
-					a.navbar-brand(href="/") LOL Dex
-
+					a.navbar-brand(href="/")
+						img#logo(src='/images/logo.png', alt='')
 					a.navbar-toggle(data-toggle="collapse", datatarget=".navbar-collapse")
 						span.glyphicon.glyphicon-chevron-down
 
