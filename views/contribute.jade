@@ -1,0 +1,37 @@
+extends layout
+block pageStyleSheet
+	link(rel='stylesheet', href='/stylesheets/contribute.css')
+
+block content
+	img(src= '/images/topStripe.png')#topStripe
+	ul.nav.nav-tabs#contribute
+		li.active
+			a(href="#addChampion",data-toggle="tab") Champion
+		li
+			a(href="#addItem",data-toggle="tab") Item
+
+	div.tab-content
+		div.tab-pane.active#addChampion
+			h3 Add Champion
+			div.form-group
+				input.form-control(type="text", name="championName", placeholder="Champion Name")#championName
+			div.form-group
+				input.form-control(type="text", name="title", placeholder="Title")#role
+			div.form-group
+				input.form-control(type="text", name="region", placeholder="Region")#region
+			div.form-group
+				input.form-control(type="text", name="type", placeholder="Type")#type
+			div.form-group
+				button.form-control.btn.btn-primary#addChampionSubmit Add Champion
+		div.tab-pane#addItem
+			h3 Add Item
+			div.form-group
+				input.form-control(type="text", name="itemName", placeholder="Item Name")#itemName
+			div.form-group
+				input.form-control(type="text", name="cost", placeholder="Title")#cost
+			div.form-group
+				input.form-control(type="text", name="description", placeholder="Description")#description
+			div.form-group
+				input.form-control(type="text", name="part", placeholder="Part")#part
+			div.form-group
+				button.form-control.btn.btn-primary#addChampionSubmit Add Item

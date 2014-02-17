@@ -1,0 +1,27 @@
+#contribute>li.active>a:hover,#contribute>li.active>a,#contribute>li>a:hover,
+#contribute>li>a:hover{
+	background-color: #000000;
+	color: #ffffff;
+}
+#addChampion, #addItem{
+	width: 700px;
+	margin-left: 15%;
+}
+
+#addChampion input,#addChampion button,#addItem input,#addItem button{
+	background-color: #000000;
+	color: #ffffff;
+}
+#addChampion button:hover,#addItem button:hover{
+	background-color: #428bca;
+	color: #ffffff;
+}
+
+.active>a{
+	background-color: #808080;
+}
+#topStripe{
+	margin-top: -40px;
+	height:230px;
+	width:100%;
+}
