@@ -518,3 +518,7 @@ footer {
 	height: 80px;
 	margin-top: -14px;
 }
+
+.dropdown-menu>li>a{
+	color:#ffffff;
+}
