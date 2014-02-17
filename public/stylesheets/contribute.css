@@ -25,3 +25,16 @@
 	height:230px;
 	width:100%;
 }
+#part input{
+	width:80%;
+	display:inline;
+
+}
+
+.otherPart{
+	margin-top: 13px;
+}
+
+#part button{
+	float:right;
+}

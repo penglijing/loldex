@@ -21,6 +21,7 @@ exports.route = function (app) {
 	app.get('/searchItem', lol.route.get_search_item);
 	app.get('/:username', lol.route.get_profile);
 	app.get('/explore', lol.route.get_explore);
+	app.post('/addChampion', lol.route.post_add_champion);
 };
 
 lol.route.get_index = function (req, res) {
@@ -58,4 +59,8 @@ lol.route.get_search_champion = function(req, res){
 
 lol.route.get_search_item = function(req, res){
 	lol.fileRequire.itemHandler.get_search_item(req, res);
+};
+
+lol.route.post_add_champion = function(req, res){
+	lol.fileRequire.championHandler.post_add_champion(req, res);
 };

@@ -2,32 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82272fb5-fe69-488f-8604-773bc2a7cbbe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/championHandler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/contribute.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/contribute.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/itemHandler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/profile.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/searchChampion.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/searchItem.jade" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/addChampion.jade" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/index.js" afterPath="$PROJECT_DIR$/public/javascripts/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/contribute.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Champions.js" afterPath="$PROJECT_DIR$/models/Champions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/championHandler.js" afterPath="$PROJECT_DIR$/routes/championHandler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/contribute.css" afterPath="$PROJECT_DIR$/public/stylesheets/contribute.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/contribute.jade" afterPath="$PROJECT_DIR$/views/contribute.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/index.css" afterPath="$PROJECT_DIR$/public/stylesheets/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/login.js" afterPath="$PROJECT_DIR$/routes/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/nav.js" afterPath="$PROJECT_DIR$/public/javascripts/nav.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/searchChampion.jade" afterPath="$PROJECT_DIR$/views/searchChampion.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="loldex.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392625855121" ignored="false" />
+    <file path="/Dummy.txt" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392648652138" ignored="false" />
     <file path="/db.js" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1391654789968" ignored="false" />
     <file path="$PROJECT_DIR$/../../DSP_FileSys/routes/profile.js" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1391655399742" ignored="false" />
     <file path="/create_champion.js" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1391656738955" ignored="false" />
     <file path="/create_champions.js" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392586512324" ignored="false" />
     <file path="/style.css" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392584139592" ignored="false" />
     <file path="/layout.jade" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392586239443" ignored="false" />
-    <file path="/index.js" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392599157662" ignored="false" />
+    <file path="/index.js" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392627459353" ignored="false" />
     <file path="/login.js" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392182234313" ignored="false" />
     <file path="/register.js" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392179985008" ignored="false" />
     <file path="/User.js" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392180053971" ignored="false" />
-    <file path="/nav.js" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392333993128" ignored="false" />
+    <file path="/nav.js" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392654983107" ignored="false" />
     <file path="$PROJECT_DIR$/../../trackwav-v1/views/layout.jade" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392368012058" ignored="false" />
     <file path="/index.jade" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392585963870" ignored="false" />
     <file path="/hackIndex.js" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392184810145" ignored="false" />
@@ -45,14 +46,17 @@
     <file path="$PROJECT_DIR$/../../trackwav-v1/views/project.jade" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392372389288" ignored="false" />
     <file path="/project.jade" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392372385940" ignored="false" />
     <file path="/index.css" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392586320964" ignored="false" />
-    <file path="/addChampion.jade" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392623734809" ignored="false" />
+    <file path="/addChampion.jade" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392627586908" ignored="false" />
     <file path="/profile.jade" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392597988502" ignored="false" />
-    <file path="/searchChampion.jade" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392598504114" ignored="false" />
+    <file path="/searchChampion.jade" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392651876463" ignored="false" />
     <file path="/searchItem.jade" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392598597501" ignored="false" />
-    <file path="/championHandler.js" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392598974796" ignored="false" />
+    <file path="/championHandler.js" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392649575647" ignored="false" />
     <file path="/itemHandler.js" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392599115185" ignored="false" />
-    <file path="/contribute.css" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392623341834" ignored="false" />
+    <file path="/contribute.css" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392627289827" ignored="false" />
     <file path="/contribute.jade" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392622428057" ignored="false" />
+    <file path="$PROJECT_DIR$/../../DSP_FileSys/views/search.jade" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392626257847" ignored="false" />
+    <file path="/contribute.js" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392649689307" ignored="false" />
+    <file path="/Champions.js" changelist="82272fb5-fe69-488f-8604-773bc2a7cbbe" time="1392628216899" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,46 +76,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="24" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="3" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="itemHandler.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/itemHandler.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="52" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contribute.jade" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="contribute.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/contribute.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="19" selection-start="316" selection-end="316" vertical-scroll-proportion="0.28099173">
+            <state line="23" column="84" selection-start="734" selection-end="741" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contribute.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/stylesheets/contribute.css">
+      <file leaf-file-name="contribute.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/contribute.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="19" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
+            <state line="25" column="33" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1392649700000" expanded="false" signature="873:889" placeholder="..." />
+                <marker date="1392649700000" expanded="false" signature="1187:1203" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/nav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="28" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1392655257000" expanded="true" signature="695:711" placeholder="..." />
+                <marker date="1392655257000" expanded="true" signature="1265:1281" placeholder="..." />
+                <marker date="1392655257000" expanded="true" signature="1544:1560" placeholder="..." />
+                <marker date="1392655257000" expanded="true" signature="1793:1809" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="17" selection-start="25" selection-end="25" vertical-scroll-proportion="0.023415977">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -120,16 +132,25 @@
       <file leaf-file-name="layout.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="61" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0">
+            <state line="68" column="15" selection-start="2576" selection-end="2576" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="championHandler.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/championHandler.js">
+      <file leaf-file-name="login.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="2" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+            <state line="18" column="22" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Champions.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Champions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="32" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -153,22 +174,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/scripts/create_champions.js" />
-        <option value="$PROJECT_DIR$/models/Champions.js" />
-        <option value="$PROJECT_DIR$/scripts/create_region.js" />
-        <option value="$PROJECT_DIR$/scripts/create_items.js" />
-        <option value="$PROJECT_DIR$/public/stylesheets/index.css" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/views/profile.jade" />
-        <option value="$PROJECT_DIR$/views/searchChampion.jade" />
         <option value="$PROJECT_DIR$/views/searchItem.jade" />
         <option value="$PROJECT_DIR$/routes/itemHandler.js" />
         <option value="$PROJECT_DIR$/views/addChampion.jade" />
-        <option value="$PROJECT_DIR$/routes/championHandler.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/public/javascripts/index.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/contribute.css" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/contribute.jade" />
+        <option value="$PROJECT_DIR$/models/Champions.js" />
+        <option value="$PROJECT_DIR$/routes/championHandler.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/contribute.js" />
+        <option value="$PROJECT_DIR$/views/searchChampion.jade" />
+        <option value="$PROJECT_DIR$/routes/login.js" />
+        <option value="$PROJECT_DIR$/views/layout.jade" />
+        <option value="$PROJECT_DIR$/public/javascripts/nav.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/index.css" />
       </list>
     </option>
   </component>
@@ -203,6 +224,46 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="loldex">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="loldex">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="routes">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="loldex">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -317,44 +378,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Default">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loldex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="loldex">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loldex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="loldex">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="routes">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="loldex">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -367,8 +402,8 @@
     <property name="options.lastSelected" value="Template Data Languages" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DSP_FileSys" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -404,7 +439,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -487,110 +522,112 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/javascripts/jquery.min.js">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="519" column="1" selection-start="7074" selection-end="7074" vertical-scroll-proportion="0.11707989">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="0.09366391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="630" selection-end="630" vertical-scroll-proportion="0.47685835" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/searchItem.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="0.046703298">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/searchChampion.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.046703298">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/hackIndex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="115" selection-end="117" vertical-scroll-proportion="0.093406595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/itemHandler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="52" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="3" selection-start="392" selection-end="392" vertical-scroll-proportion="0.25757575" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="24" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="14" selection-start="852" selection-end="864" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/index.js">
+    <entry file="file://$PROJECT_DIR$/routes/register.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/profile.jade">
+    <entry file="file://$PROJECT_DIR$/models/User.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.07024793">
-          <folding />
-        </state>
+        <state line="23" column="9" selection-start="554" selection-end="554" vertical-scroll-proportion="0.5385675" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
+    <entry file="file://$PROJECT_DIR$/models/db.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="41" selection-start="71" selection-end="71" vertical-scroll-proportion="0.07024793">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/itemHandler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="52" selection-start="95" selection-end="95" vertical-scroll-proportion="0.023415977">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/championHandler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="2" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+        <state line="16" column="36" selection-start="443" selection-end="443" vertical-scroll-proportion="0.37465563">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="61" selection-start="1438" selection-end="1438" vertical-scroll-proportion="0.0">
+        <state line="68" column="15" selection-start="2576" selection-end="2576" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/contribute.css">
+    <entry file="file://$PROJECT_DIR$/routes/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="19" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
+        <state line="18" column="22" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Champions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="32" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/searchChampion.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="58" selection-start="356" selection-end="356" vertical-scroll-proportion="0.25757575">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/contribute.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="316" selection-end="316" vertical-scroll-proportion="0.28099173">
+        <state line="23" column="84" selection-start="734" selection-end="741" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/contribute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="33" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1392649700000" expanded="false" signature="873:889" placeholder="..." />
+            <marker date="1392649700000" expanded="false" signature="1187:1203" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="28" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1392655257000" expanded="true" signature="695:711" placeholder="..." />
+            <marker date="1392655257000" expanded="true" signature="1265:1281" placeholder="..." />
+            <marker date="1392655257000" expanded="true" signature="1544:1560" placeholder="..." />
+            <marker date="1392655257000" expanded="true" signature="1793:1809" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="17" selection-start="25" selection-end="25" vertical-scroll-proportion="0.023415977">
           <folding />
         </state>
       </provider>

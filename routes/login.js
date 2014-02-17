@@ -15,8 +15,7 @@ exports.login = function(req, res) {
 		if (user.length == 0) {
 			var err = 'User does not exist';
 			console.log(err);
-			res.redirect('/');
-			res.send({info:err});
+			res.send({info:'User does not exist'});
 			return err
 		}
 		console.log(user);
@@ -25,7 +24,6 @@ exports.login = function(req, res) {
 			var err = 'Wrong Password';
 			console.log('Wrong Password')
 			req.flash('info', err);
-			res.redirect('/');
 			res.send({info:err});
 			return err;
 		}

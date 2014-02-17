@@ -19,6 +19,10 @@ $(document).ready(function(){
 			success: function(message){
 				if(message.message == 'success'){
 					window.location = '/';
+					$('#container').prepend('<p style = "margin-top: 10px" class = "alert alert-success">Login success</p>');
+					setTimeout(function(){
+						$('.alert').fadeOut();
+					},2000);
 				}
 			},
 			error: function(err){
@@ -36,7 +40,22 @@ $(document).ready(function(){
 			contentType:'application/json',
 			success:function(message){
 				if(message.info == 'Login Success'){
-					window.location = '/';
+
+					$('#carousel-example-generic').prepend('<p style = "margin-top: 10px" class = "alert alert-success">Login success</p>');
+					setTimeout(function(){
+						$('.alert').fadeOut();
+						window.location = '/';
+					},1000);
+				}else if(message.info == 'User does not exist'){
+					$('#carousel-example-generic').prepend('<p style = "margin-top: 10px" class = "alert alert-danger">User does not exist</p>');
+					setTimeout(function(){
+						$('.alert').fadeOut();
+					},2000);
+				}else if(message.info =='Wrong Password'){
+					$('#carousel-example-generic').prepend('<p style = "margin-top: 10px" class = "alert alert-danger">Wrong Password</p>');
+					setTimeout(function(){
+						$('.alert').fadeOut();
+					},2000);
 				}
 			},
 			error:function(err){

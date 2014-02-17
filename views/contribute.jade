@@ -2,6 +2,9 @@ extends layout
 block pageStyleSheet
 	link(rel='stylesheet', href='/stylesheets/contribute.css')
 
+block pageScript
+	script(src = '/javascripts/contribute.js')
+
 block content
 	img(src= '/images/topStripe.png')#topStripe
 	ul.nav.nav-tabs#contribute
@@ -16,7 +19,7 @@ block content
 			div.form-group
 				input.form-control(type="text", name="championName", placeholder="Champion Name")#championName
 			div.form-group
-				input.form-control(type="text", name="title", placeholder="Title")#role
+				input.form-control(type="text", name="title", placeholder="Title")#title
 			div.form-group
 				input.form-control(type="text", name="region", placeholder="Region")#region
 			div.form-group
@@ -31,7 +34,9 @@ block content
 				input.form-control(type="text", name="cost", placeholder="Title")#cost
 			div.form-group
 				input.form-control(type="text", name="description", placeholder="Description")#description
-			div.form-group
-				input.form-control(type="text", name="part", placeholder="Part")#part
+			div.form-group#part
+				input.form-control(type="text", name="part", placeholder="Part")
+				button.btn.btn-primary#addpart
+					span.glyphicon.glyphicon-plus
 			div.form-group
 				button.form-control.btn.btn-primary#addChampionSubmit Add Item
